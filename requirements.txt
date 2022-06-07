@@ -1,9 +1,8 @@
 Django==4.0.3
 zappa==0.54.1
 psycopg2-binary==2.9.3
-graphene-django==3.0.0b7
+graphene-django @ git+https://github.com/schnea/graphene-django.git@0ced88a1e480b2ee2c370d7d8c30e5b59d459311
 django-storages==1.12.3
 django-model-utils==4.2.0
-https://github.com/instruct-br/graphene-django-pagination/archive/master.zip
 pydash==5.1.0
-django-cors-headers==3.11.0
+django-cors-theaders==3.11.0
